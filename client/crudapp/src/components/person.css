@@ -1,0 +1,35 @@
+.personContainer{
+    width: 400px;
+    height: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(173, 157, 157);
+}
+.controls{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+.datas{
+    padding-left: 20px;
+    line-height: 25px;
+}
+.controls button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    height: 25px;
+}
+.delete{
+    background-color: #dc3545;
+}
+.edit{
+    background-color: #4caf50;
+}
